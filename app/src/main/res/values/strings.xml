@@ -1,0 +1,155 @@
+<resources>
+    <string name="app_name" translatable="false">Keskonmange</string>
+
+    <string name="infoRecipe">InfoRecipe</string>
+    <string name="StepsPreparation">Steps Preparation</string>
+    <string name="description_recipe_card" translatable="false">Recipe_card :</string>
+    <string name="recipe_to_cook">"What do you want to eat ?</string>
+    <string name="filtre">Filter</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="what_s_in_your_kitchen">What\'s in your Kitchen ?</string>
+    <string name="enter_up_2_ingredients">Enter up 2 ingredients</string>
+    <string name="query_hint">Type and add your ingredients</string>
+    <string name="my_ingredients">My ingredients</string>
+    <string name="action_call">Cook</string>
+    <string name="all_ingredients_user_delete">all your ingredients were delete</string>
+    <string name="ingredient_user_deleted">%1$s was delete !</string>
+    <string name="error">Error</string>
+    <string name="delete_all_my_ingredients">Delete all my ingredients</string>
+    <string name="no_result_recipes">No result, add other ingredients</string>
+
+    <string name="january">January</string>
+    <string name="february">February</string>
+    <string name="march">March</string>
+    <string name="april">April</string>
+    <string name="may">May</string>
+    <string name="june">June</string>
+    <string name="july">July</string>
+    <string name="august">August</string>
+    <string name="september">September</string>
+    <string name="october">October</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+
+    <string name="Winter">Winter</string>
+    <string name="Spring">Spring</string>
+    <string name="Autumn">Autumn</string>
+    <string name="Summer">Summer</string>
+
+
+    //fruits et légumes
+    <string name="clémentine">Clémentine</string>
+    <string name="kaki">Kaki</string>
+    <string name="kiwi">Kiwi</string> // décembre à mars
+    <string name="betterave">Betterave</string>
+    <string name="carotte">Carrotte</string>
+    <string name="céleri_branche">Céleri branche</string>
+    <string name="blette">Blette</string>
+    <string name="fenouil">Fenouil</string>
+    <string name="mache">Mâche</string>
+    <string name="panais">Concombre</string>
+    <string name="patate_douce">Haricot vert</string>
+    <string name="pomme_de_terre">Pomme de terre</string>
+    <string name="pumpkin">Pumpkin</string>
+    <string name="black_radish">Black radish</string>
+    <string name="rutabaga">Rutabaga</string>
+    <string name="salsifis">Salsifis</string>
+    <string name="topinambour">Topinambour</string>
+    <string name="orange">Orange</string>
+    <string name="poire">Poire</string>
+    <string name="pomme">Pomme</string>
+    <string name="epinard">Epinard</string>
+    <string name="butternut">Butternut</string>
+    <string name="céleri_rave">Céleri rave</string>
+    <string name="choux_de_Bruxelles">Choux de Bruxelles</string>
+    <string name="chou_fleur">Chou-fleur</string>
+    <string name="chou_vert">Chou vert</string>
+    <string name="chou_rouge">Chou rouge</string>
+    <string name="endive">Endive</string>
+    <string name="morille">Morille</string>
+    <string name="oignon">Oignon</string>
+    <string name="poireau">Poireau</string>
+    <string name="navet">Navet</string>
+    <string name="concombre">Concombre</string>
+    <string name="cresson">Cresson</string>
+    <string name="mesclun">Mesclun</string>
+    <string name="mure">mûre</string>
+    <string name="oseille">Oseille</string>
+    <string name="pamplemousse">Pamplemousse</string>
+    <string name="petit_pois">Petit pois</string>
+    <string name="pois_gourmand">Pois gourmand</string>
+    <string name="radis">Radis</string>
+    <string name="laitue">Laitue</string>
+    <string name="abricot">Abricot</string>
+    <string name="cassis">Cassis</string>
+    <string name="cerise">Cerise</string>
+    <string name="fraise">Fraise</string>
+    <string name="framboise">Framboise</string>
+    <string name="melon">Melon</string>
+    <string name="rhubarbe">Rhubarbe</string>
+    <string name="tomate">Tomate</string>
+    <string name="artichaut">Artichaut</string>
+    <string name="asperge">Asperge</string>
+    <string name="aubergine">aubergine</string>
+    <string name="haricot_vert">Haricot vert</string>
+    <string name="red_bell_pepper">Red bell pepper</string>
+    <string name="green_pepper">Green pepper</string>
+    <string name="champignons_de_Paris">Champignons de Paris</string>
+    <string name="courgette">Courgette</string>
+    <string name="avocado">Avocado</string>
+    <string name="green_lentils">Green lentils</string>
+    <string name="corn">Corn</string>
+    <string name="white_radish">White radish</string>
+
+    // poisson
+    <string name="cod">Cod</string>
+    <string name="hake">Hake</string>
+    <string name="salmon">Salmon</string>
+    <string name="breaded_fish">Breaded fish</string>
+
+    // viande et oeufs
+    <string name="egs">Egs</string>
+    <string name="pork_meat">Pork meat</string>
+    <string name="chicken_meat">Chicken meat</string>
+    <string name="beef">Beef</string>
+    <string name="white_ham">White ham</string>
+    <string name="ham">Ham</string>
+    <string name="sausage">Sausage</string>
+
+    //Produits laitiers
+    <string name="milk">Milk</string>
+    <string name="butter">Butter</string>
+    // fromages
+    <string name="mozarella">Mozarella</string>
+    <string name="emmental">Emmental</string>
+    <string name="feta_cheese">Feta cheese</string>
+    <string name="french_aubrac_cheese">French Aubrac\'s cheese</string>
+    //Féculents
+    <string name="soft_bread">Soft bread</string>
+    <string name="rye_bread">Rye bread</string>
+    <string name="white_bread">White bread</string>
+    <string name="bread">Bread</string>
+    <string name="pasta">Pasta</string>
+    <string name="noodles">Noodles</string>
+    <string name="wheat_flour">Wheat flour</string>
+    <string name="corn_flour">Corn flour</string>
+    <string name="rye_flour">Rye flour</string>
+    <string name="rice_flour">Rice flour</string>
+    
+    // condiments 
+    <string name="dill">Dill</string>
+    <string name="salt">Salt</string>
+    <string name="pepper">Pepper</string>
+    <string name="oil">Oil</string>
+    <string name="soya_sauce">Soy sauce</string>
+    <string name="sugar">Sugar</string>
+    <string name="thyme">Thyme</string>
+    <string name="cumin">Cumin</string>
+    <string name="shallots">Shallots</string>
+    <string name="mustard">Mustard</string>
+    <string name="vinegar">Vinegar</string>
+    <string name="view_all_recipes">View all recipes</string>
+    <string name="no_recipes">No recipes corresponding</string>
+
+
+</resources>

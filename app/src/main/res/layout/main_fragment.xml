@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Base.Project"
+    tools:context=".ui.main.MainFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="?attr/actionBarSize"
+                tools:targetApi="lollipop">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/ic_room_service" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:gravity="center_vertical"
+                    android:text="@string/app_name"
+                    style="@style/TextAppearance.MdcTypographyStyles.Headline5"
+                    android:textColor="@color/white" />
+            </Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_below="@id/app_bar_layout"
+            android:layout_margin="5dp"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MdcTypographyStyles.Headline5"
+            android:text="@string/what_s_in_your_kitchen"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/infoToCook"
+            android:layout_margin="5dp"
+            style="@style/TextAppearance.MdcTypographyStyles.Headline6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info"
+            android:text="@string/enter_up_2_ingredients" />
+        <SearchView
+            android:id="@+id/search_Ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@id/infoToCook"
+            android:iconifiedByDefault="false"
+            android:queryHint="@string/query_hint"
+            style="@style/TextAppearance.MdcTypographyStyles.Body1"
+            />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_height="wrap_content"
+            style="@style/TextAppearance.MdcTypographyStyles.Body1"
+            android:text="@string/my_ingredients"
+            android:layout_below="@id/search_Ingredients"
+            android:id="@+id/my_ingredients"/>
+        <HorizontalScrollView
+            android:id="@+id/horizontal_scroll_view"
+            android:layout_width="match_parent"
+            android:minHeight="25dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/my_ingredients">
+
+            <com.google.android.material.chip.ChipGroup
+                android:id="@+id/entryChipGroupFrigo"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </HorizontalScrollView>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/horizontal_scroll_view"
+            tools:listitem="@layout/recyclerview_item_ingredient" />
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/search_recipe"
+        android:text="@string/action_call"
+        android:layout_gravity="bottom|center"
+        app:icon="@drawable/ic_room_service"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

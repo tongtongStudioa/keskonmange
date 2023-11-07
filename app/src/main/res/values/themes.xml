@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Base theme, all common styling here-->
+    <style name="Base.Project" parent="@style/Theme.MaterialComponents.Light.NoActionBar">
+
+        <!--<item name="colorPrimary">@color/purple_700</item>
+        <item name="colorPrimaryVariant">@color/purple_200</item>
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="android:colorBackground">#</item>-->
+
+        <!-- Primary brand color. -->
+        <!-- Secondary brand color. -->
+        <!-- Status bar color. -->
+        <item name="statusBarBackground">#fff</item>
+        <!-- Customize your theme here. -->
+
+        <item name="chipStyle">@style/Widget.Project.Chip.Entry</item>
+
+        <!--Material shape attributes
+        <item name="shapeAppearanceSmallComponent">@style/ShapeAppearance.MyTheme.SmallComponent</item>
+        <item name="shapeAppearanceMediumComponent">@style/ShapeAppearance.MyTheme.MediumComponent</item>
+        <item name="shapeAppearanceLargeComponent">@style/ShapeAppearance.MyTheme.LargeComponent</item>-->
+
+        <!--Material type attributes
+        <item name="textAppearanceHeadline1">@style/TextAppearance.MyTheme.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.MyTheme.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.MyTheme.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.MyTheme.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.MyTheme.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.MyTheme.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.MyTheme.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.MyTheme.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.MyTheme.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.MyTheme.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.MyTheme.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.MyTheme.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.MyTheme.Overline</item>-->
+
+        <!--Platform attributes-
+        <item name="android:navigationBarColor">@color/nav_bar</item>
+        <item name="android:statusBarColor">@color/immersive_sys_ui</item>-->
+
+        <!--Default styles-
+        <item name="bottomNavigationStyle">@style/Widget.Owl.BottomNavigationView</item>-->
+
+    </style>
+
+</resources>

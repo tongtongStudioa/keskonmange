@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dist="http://schemas.android.com/apk/distribution"
+    package="com.tongtongstudio.keskonmange">
+
+    <dist:module dist:instant="true" />
+
+    <application
+        android:name="com.tongtongstudio.keskonmange.KeskonmangeApplication"
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Base.Project">
+        <activity
+            android:name="com.tongtongstudio.keskonmange.ui.main.RecipeChooseActivity"
+            android:parentActivityName="com.tongtongstudio.keskonmange.ui.main.MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tongtongstudio.keskonmange.ui.main.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.tongtongstudio.keskonmange.ui.main.RecipeActivity"
+            android:parentActivityName="com.tongtongstudio.keskonmange.ui.main.RecipeChooseActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tongtongstudio.keskonmange.ui.main.RecipeChooseActivity" />
+        </activity>
+        <activity android:name="com.tongtongstudio.keskonmange.ui.main.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
